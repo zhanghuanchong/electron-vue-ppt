@@ -15,6 +15,8 @@ theme: blue
 * Web 布局方便
 * 调试方便
 * 扩展/迁移方便
+* 大杂烩
+* 演示
 
 [slide]
 # 技术方案
@@ -47,7 +49,7 @@ http://electron.atom.io/
 * 项目代码
 
 [slide]
-## Electron builder
+# Electron builder
 ----
 https://www.electron.build/
 * 多种格式的安装包
@@ -56,27 +58,28 @@ https://www.electron.build/
 * 代码签名
 
 [slide]
-## node-printer
+# node-printer
 https://github.com/tojocky/node-printer
 * electron-rebuild. package.json
 * printDirect
 
 [slide]
-## node-escpos
+# node-escpos
 https://github.com/song940/node-escpos/blob/master/commands.js
 * 开钱箱
 * 打印
 * 切纸
 
 [slide]
-## ES6+
+# ES6+
 * http://es6.ruanyifeng.com/
 * async, await
 * Promise
 * 参数的解构赋值
+* npm vs. yarn
 
 [slide]
-## Vue
+# Vue
 * https://github.com/SimulatedGREG/electron-vue
 * https://cn.vuejs.org
 * Webpack
@@ -94,3 +97,48 @@ https://vuex.vuejs.org/zh-cn/intro.html
 * Action
 * Module
 * 项目代码
+
+[slide]
+# Vue Router
+https://router.vuejs.org/zh-cn/
+* &lt;router-link :to="..." replace&gt;
+* this.$router.replace
+
+[slide]
+# http://element.eleme.io/
+* Layout
+* Dialog
+* Button
+* Form
+* MessageBox
+* Notification
+* Dropdown
+* Tabs
+* Breadcrumb
+* 自定义 scss
+
+[slide]
+# RxDB
+https://github.com/pubkey/rxdb
+* Multiplatform support
+* rxjs
+* Hook
+* 基于PouchDB，兼容 CouchDB, IBM Cloudant
+* Replication
+* JSON Schema
+* Mango-Query
+* Encryption
+
+[slide]
+# RxDB
+* Import/Export
+* Multi-Window
+* ORM-capabilities
+* Leveldown-adapters: indexedDB, websql, localStorage, mysql, memory... 
+* Leader-Election
+* Key-Compression
+* 项目代码
+
+[slide]
+# Thank you
+### Questions?
