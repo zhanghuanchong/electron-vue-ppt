@@ -46,6 +46,7 @@ http://electron.atom.io/
 * 主进程
 * 渲染进程
 * 不同的V8分支
+* 进程通信, remote, ipc
 * 项目代码
 
 [slide]
@@ -83,6 +84,8 @@ https://github.com/song940/node-escpos/blob/master/commands.js
 * https://github.com/SimulatedGREG/electron-vue
 * https://cn.vuejs.org
 * Webpack
+* Mixin
+* eventHub
 * Electron + Vue
 * Weex + Vue vs. React Native 
 
@@ -103,6 +106,8 @@ https://vuex.vuejs.org/zh-cn/intro.html
 https://router.vuejs.org/zh-cn/
 * &lt;router-link :to="..." replace&gt;
 * this.$router.replace
+* beforeRouteEnter, next
+* beforeRouteLeave, next
 
 [slide]
 # http://element.eleme.io/
@@ -125,20 +130,21 @@ https://github.com/pubkey/rxdb
 * Hook
 * 基于PouchDB，兼容 CouchDB, IBM Cloudant
 * Replication
-* JSON Schema
+* JSON Schema, migrationStrategies
 * Mango-Query
 * Encryption
 
 [slide]
 # RxDB
-* Import/Export
+* Import/Export，自定义
 * Multi-Window
-* ORM-capabilities
+* ORM-capabilities, statics, methods, _
 * Leveldown-adapters: indexedDB, websql, localStorage, mysql, memory... 
 * Leader-Election
 * Key-Compression
-* 项目代码
+* 项目代码, index, sort
 
 [slide]
 # Thank you
+### Suggestions?
 ### Questions?
