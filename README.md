@@ -57,6 +57,7 @@ https://www.electron.build/
 * 图标
 * 自动更新
 * 代码签名
+* package.json
 
 [slide]
 # node-printer
@@ -78,6 +79,7 @@ https://github.com/song940/node-escpos/blob/master/commands.js
 * Promise
 * 参数的解构赋值
 * npm vs. yarn
+* ESLint
 
 [slide]
 # Vue
